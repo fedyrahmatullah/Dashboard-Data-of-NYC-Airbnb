@@ -1,0 +1,1975 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0326.1623                               -->
+<workbook original-version='18.1' source-build='2020.1.2 (20201.20.0326.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (airBNBNY_cleaned)' inline='true' name='federated.0cnnhpi0a5kq8y17u6zon0v6ojgc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='airBNBNY_cleaned' name='excel-direct.1moyskg1mbjzgo16fct9k09txqod'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/RevoU/CaseStudy/airBNBNY_cleaned.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1moyskg1mbjzgo16fct9k09txqod' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+            <column datatype='integer' name='listing_id' ordinal='0' />
+            <column datatype='string' name='description' ordinal='1' />
+            <column datatype='string' name='room_type' ordinal='2' />
+            <column datatype='integer' name='price' ordinal='3' />
+            <column datatype='string' name='neighborhood_full' ordinal='4' />
+            <column datatype='string' name='host_name' ordinal='5' />
+            <column datatype='date' name='last_review' ordinal='6' />
+            <column datatype='string' name='area' ordinal='7' />
+            <column datatype='string' name='sub_area' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>listing_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[listing_id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>listing_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LID_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>room_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[room_type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>room_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LID_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[price]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>price</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>neighborhood_full</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[neighborhood_full]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>neighborhood_full</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LID_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>host_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[host_name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>host_name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LID_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_review</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[last_review]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>last_review</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[area]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>area</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LID_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sub_area</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[sub_area]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>sub_area</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LID_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I10001:no:A1:I10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[area]' role='dimension' type='nominal' />
+      <column datatype='date' name='[last_review]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[listing_id]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[room_type]' role='dimension' type='nominal' />
+      <column datatype='string' name='[sub_area]' role='dimension' type='nominal' />
+      <column-instance column='[area]' derivation='None' name='[none:area:nk]' pivot='key' type='nominal' />
+      <column-instance column='[room_type]' derivation='None' name='[none:room_type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[sub_area]' derivation='None' name='[none:sub_area:nk]' pivot='key' type='nominal' />
+      <column-instance column='[last_review]' derivation='Year' name='[yr:last_review:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (area)' hidden='true' name='[Action (area)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[area]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (area,YEAR(last_review))' hidden='true' name='[Action (area,YEAR(last_review))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[area]' />
+          <groupfilter function='level-members' level='[yr:last_review:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (area,room_type)' hidden='true' name='[Action (area,room_type)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[area]' />
+          <groupfilter function='level-members' level='[room_type]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (sub_area)' hidden='true' name='[Action (sub_area)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[sub_area]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.56639' measure-ordering='alphabetic' measure-percentage='0.43361' show-structure='true' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:sub_area:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Bay Terrace&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Cambria Heights&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Coney Island&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Eltingville&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Great Kills&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kew Gardens Hills&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Morningside Heights&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Park Slope&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Rosedale&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Theater District&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Whitestone&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Allerton&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Breezy Point&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Clinton Hill&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;East Harlem&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Fort Hamilton&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hunts Point&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mariners Harbor&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;New Springville&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Rego Park&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Springfield Gardens&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Van Nest&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Astoria&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Brooklyn Heights&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Columbia St&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Eastchester&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gramercy&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Jamaica Estates&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Midland Beach&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Norwood&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Riverdale&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Stapleton&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;West Brighton&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bedford-Stuyvesant&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Castleton Corners&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ditmars Steinway&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Financial District&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Harlem&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Lighthouse Hill&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Mott Haven&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Port Morris&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sheepshead Bay&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tottenville&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Windsor Terrace&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Baychester&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Canarsie&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Corona&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Emerson Hill&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Greenpoint&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kingsbridge&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Morris Heights&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Parkchester&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Rossville&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Throgs Neck&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Williamsbridge&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Bath Beach&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Brownsville&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Concord&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Edenwald&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Graniteville&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Jamaica Hills&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Midtown&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Oakwood&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Rockaway Beach&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Stuyvesant Town&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;West Farms&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Boerum Hill&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Clason Point&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;East Elmhurst&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Forest Hills&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Howland Hook&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Manhattan Beach&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;New Brighton&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Randall Manor&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;South Ozone Park&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Upper East Side&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Arden Heights&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Briarwood&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Co-op City&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;East Morrisania&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Fresh Meadows&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Inwood&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Maspeth&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;NoHo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Richmond Hill&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Spuyten Duyvil&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Vinegar Hill&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bensonhurst&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Civic Center&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;DUMBO&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Flushing&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Holliswood&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Longwood&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Navy Yard&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prospect-Lefferts Gardens&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Soundview&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Unionport&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Battery Park City&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bull&apos;s Head&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Concourse&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Edgemere&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Grant City&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kensington&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Midwood&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Olinville&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Roosevelt Island&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sunnyside&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;West Village&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Belle Harbor&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Chelsea&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Dongan Hills&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Flatbush&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Hell&apos;s Kitchen&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Little Italy&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Mount Eden&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Port Richmond&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Shore Acres&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tremont&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Woodhaven&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bellerose&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Chinatown&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Douglaston&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Flatiron District&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Highbridge&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Little Neck&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Mount Hope&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prince&apos;s Bay&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Silver Lake&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tribeca&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Woodlawn&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bergen Beach&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Claremont Village&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Dyker Heights&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Fordham&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Howard Beach&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lower East Side&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Neponsit&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Queens Village&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;South Beach&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;University Heights&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Borough Park&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Clifton&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;East Flatbush&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Fort Greene&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Huguenot&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Marble Hill&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;New Dorp Beach&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Red Hook&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;South Slope&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Upper West Side&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bayside&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Carroll Gardens&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Crown Heights&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Far Rockaway&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Greenwich Village&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kips Bay&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Morris Park&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Pelham Bay&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Schuylerville&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Todt Hill&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Williamsburg&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bay Ridge&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bushwick&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Concourse Village&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Elmhurst&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Gravesend&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kew Gardens&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mill Basin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Ozone Park&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Rosebank&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sunset Park&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Westchester Square&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Arrochar&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Brighton Beach&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cobble Hill&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;East New York&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Glendale&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Jackson Heights&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Melrose&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nolita&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Richmondtown&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;St. Albans&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Wakefield&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Belmont&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;City Island&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Downtown Brooklyn&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Flatlands&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hollis&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Long Island City&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Murray Hill&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prospect Heights&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SoHo&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Two Bridges&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Woodside&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bayswater&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Castle Hill&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Cypress Hills&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Fieldston&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Grymes Hill&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Laurelton&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Morrisania&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Pelham Gardens&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sea Gate&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tompkinsville&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Willowbrook&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Arverne&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bronxdale&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;College Point&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;East Village&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Gowanus&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Middle Village&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;North Riverdale&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ridgewood&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;St. George&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Washington Heights&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:area:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bronx&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Staten Island&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Queens&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Manhattan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Brooklyn&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:room_type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Entire Home/Apt&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Shared Room&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Private Room&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Indonesia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter1' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Exploratory Data of Airbnb NY' type='sheet' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Exploratory Data of Airbnb NY' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average Price'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (airBNBNY_cleaned)' name='federated.0cnnhpi0a5kq8y17u6zon0v6ojgc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cnnhpi0a5kq8y17u6zon0v6ojgc'>
+            <column datatype='string' name='[area]' role='dimension' type='nominal' />
+            <column-instance column='[price]' derivation='Avg' name='[avg:price:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' name='[last_review]' role='dimension' type='ordinal' />
+            <column-instance column='[area]' derivation='None' name='[none:area:nk]' pivot='key' type='nominal' />
+            <column datatype='integer' name='[price]' role='measure' type='quantitative' />
+            <column datatype='string' name='[room_type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[sub_area]' role='dimension' type='nominal' />
+            <column-instance column='[last_review]' derivation='Year' name='[yr:last_review:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area)]'>
+            <groupfilter function='level-members' level='[area]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,YEAR(last_review))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[area]' />
+              <groupfilter function='level-members' level='[yr:last_review:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,room_type)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[area]' />
+              <groupfilter function='level-members' level='[room_type]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (sub_area)]'>
+            <groupfilter function='level-members' level='[sub_area]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[avg:price:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area)]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,room_type)]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (sub_area)]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,YEAR(last_review))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]</rows>
+        <cols>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[avg:price:qk]</cols>
+      </table>
+      <simple-id uuid='{BCF1C217-A8FD-4C56-A1CC-9C9DD7CE5BAE}' />
+    </worksheet>
+    <worksheet name='Average Price by Room Type'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (airBNBNY_cleaned)' name='federated.0cnnhpi0a5kq8y17u6zon0v6ojgc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cnnhpi0a5kq8y17u6zon0v6ojgc'>
+            <column datatype='string' name='[area]' role='dimension' type='nominal' />
+            <column datatype='date' name='[last_review]' role='dimension' type='ordinal' />
+            <column-instance column='[area]' derivation='None' name='[none:area:nk]' pivot='key' type='nominal' />
+            <column-instance column='[room_type]' derivation='None' name='[none:room_type:nk]' pivot='key' type='nominal' />
+            <column datatype='integer' name='[price]' role='measure' type='quantitative' />
+            <column datatype='string' name='[room_type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[sub_area]' role='dimension' type='nominal' />
+            <column-instance column='[price]' derivation='Sum' name='[sum:price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[last_review]' derivation='Year' name='[yr:last_review:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area)]'>
+            <groupfilter function='level-members' level='[area]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,YEAR(last_review))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[area]' />
+              <groupfilter function='level-members' level='[yr:last_review:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (sub_area)]'>
+            <groupfilter function='level-members' level='[sub_area]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area)]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (sub_area)]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,YEAR(last_review))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:room_type:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[sum:price:qk]</rows>
+        <cols>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]</cols>
+      </table>
+      <simple-id uuid='{9D9FC6AC-ED55-4B2A-9B02-9CCBA6AC5494}' />
+    </worksheet>
+    <worksheet name='Listing per area'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (airBNBNY_cleaned)' name='federated.0cnnhpi0a5kq8y17u6zon0v6ojgc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cnnhpi0a5kq8y17u6zon0v6ojgc'>
+            <column datatype='string' name='[area]' role='dimension' type='nominal' />
+            <column-instance column='[listing_id]' derivation='Count' name='[cnt:listing_id:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' name='[last_review]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[listing_id]' role='dimension' type='ordinal' />
+            <column-instance column='[area]' derivation='None' name='[none:area:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[room_type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[sub_area]' role='dimension' type='nominal' />
+            <column-instance column='[last_review]' derivation='Year' name='[yr:last_review:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area)]'>
+            <groupfilter function='level-members' level='[area]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,YEAR(last_review))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[area]' />
+              <groupfilter function='level-members' level='[yr:last_review:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,room_type)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[area]' />
+              <groupfilter function='level-members' level='[room_type]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (sub_area)]'>
+            <groupfilter function='level-members' level='[sub_area]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,room_type)]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (sub_area)]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area)]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,YEAR(last_review))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[cnt:listing_id:qk]' />
+              <text column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]' />
+              <color column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{72E33970-816B-4E4A-9C97-6631D2CF3404}' />
+    </worksheet>
+    <worksheet name='Timeline'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (airBNBNY_cleaned)' name='federated.0cnnhpi0a5kq8y17u6zon0v6ojgc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cnnhpi0a5kq8y17u6zon0v6ojgc'>
+            <column datatype='string' name='[area]' role='dimension' type='nominal' />
+            <column-instance column='[listing_id]' derivation='Count' name='[cnt:listing_id:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' name='[last_review]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[listing_id]' role='dimension' type='ordinal' />
+            <column-instance column='[area]' derivation='None' name='[none:area:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[room_type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[sub_area]' role='dimension' type='nominal' />
+            <column-instance column='[last_review]' derivation='Year' name='[yr:last_review:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area)]'>
+            <groupfilter function='level-members' level='[area]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,room_type)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[area]' />
+              <groupfilter function='level-members' level='[room_type]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (sub_area)]'>
+            <groupfilter function='level-members' level='[sub_area]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area)]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,room_type)]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (sub_area)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[cnt:listing_id:qk]</rows>
+        <cols>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[yr:last_review:ok]</cols>
+      </table>
+      <simple-id uuid='{7B85709F-699B-4840-8942-4125F4D4E380}' />
+    </worksheet>
+    <worksheet name='Top 5 Sub Area in NYC by Listing'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (airBNBNY_cleaned)' name='federated.0cnnhpi0a5kq8y17u6zon0v6ojgc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cnnhpi0a5kq8y17u6zon0v6ojgc'>
+            <column datatype='string' name='[area]' role='dimension' type='nominal' />
+            <column-instance column='[listing_id]' derivation='Count' name='[cnt:listing_id:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' name='[last_review]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[listing_id]' role='dimension' type='ordinal' />
+            <column-instance column='[sub_area]' derivation='None' name='[none:sub_area:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[room_type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[sub_area]' role='dimension' type='nominal' />
+            <column-instance column='[last_review]' derivation='Year' name='[yr:last_review:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area)]'>
+            <groupfilter function='level-members' level='[area]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,YEAR(last_review))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[area]' />
+              <groupfilter function='level-members' level='[yr:last_review:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,room_type)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[area]' />
+              <groupfilter function='level-members' level='[room_type]' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[cnt:listing_id:qk]' included-values='all' />
+          <filter class='categorical' column='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:sub_area:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([listing_id])' function='order' user:ui-marker='order'>
+                <groupfilter from='&quot;Allerton&quot;' function='range' level='[none:sub_area:nk]' to='&quot;Woodside&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:sub_area:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[cnt:listing_id:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[cnt:listing_id:qk]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:sub_area:nk]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area)]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,room_type)]</column>
+            <column>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[Action (area,YEAR(last_review))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:sub_area:nk]</rows>
+        <cols>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[cnt:listing_id:qk]</cols>
+      </table>
+      <simple-id uuid='{74B1C80D-400C-42AC-8AE0-86C7088BC586}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Exploratory Data of Airbnb NY'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='6' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='11' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='9' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+              <zone h='98000' id='7' type='layout-basic' w='98400' x='800' y='1000' />
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='29875' id='3' name='Listing per area' show-title='false' w='31400' x='6600' y='13125' />
+        <zone h='15625' id='4' name='Listing per area' pane-specification-id='0' param='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]' type='color' w='11300' x='39600' y='11625' />
+        <zone h='29125' id='13' name='Average Price' show-title='false' w='44600' x='51700' y='13375' />
+        <zone h='24125' id='14' name='Timeline' show-title='false' w='39500' x='4800' y='48875' />
+        <zone h='28125' id='16' name='Average Price by Room Type' show-title='false' w='38500' x='48800' y='46875' />
+        <zone h='9750' id='17' name='Average Price by Room Type' pane-specification-id='0' param='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:room_type:nk]' type='color' w='14000' x='85500' y='46625' />
+        <zone h='24625' id='18' name='Top 5 Sub Area in NYC by Listing' show-title='false' w='73100' x='19900' y='75000' />
+        <zone forceUpdate='true' h='5625' id='19' type='text' w='35100' x='2500' y='2750'>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Tableau Medium' fontsize='15'>Dashboard Data of AirBnB in NYC</run>
+            <run>Æ </run>
+          </formatted-text>
+        </zone>
+        <zone h='3750' id='20' type='text' w='19300' x='78200' y='4500'>
+          <formatted-text>
+            <run>dashboard by : Fedy Rahmatullah</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3750' id='21' type='text' w='18200' x='3500' y='10250'>
+          <formatted-text>
+            <run fontcolor='#e15759' fontsize='14'>Listing per Area</run>
+          </formatted-text>
+        </zone>
+        <zone h='3750' id='22' type='text' w='25700' x='50600' y='43750'>
+          <formatted-text>
+            <run fontcolor='#e15759' fontsize='14'>Average Price by Room Type</run>
+          </formatted-text>
+        </zone>
+        <zone h='3750' id='23' type='text' w='20100' x='52700' y='9000'>
+          <formatted-text>
+            <run fontcolor='#e15759' fontsize='14'>Average Price by Area</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3750' id='24' type='text' w='27000' x='6100' y='45125'>
+          <formatted-text>
+            <run fontcolor='#e15759' fontsize='14'>Listing Count Year by Year</run>
+          </formatted-text>
+        </zone>
+        <zone h='14875' id='25' type='text' w='15700' x='3800' y='77875'>
+          <formatted-text>
+            <run fontalignment='2' fontcolor='#e15759' fontsize='14'>Top 5 Sub Area </run>
+            <run fontalignment='2'>Æ&#10;</run>
+            <run fontalignment='2' fontcolor='#e15759' fontsize='14'>in NYC by</run>
+            <run fontalignment='2'>Æ&#10;</run>
+            <run fontalignment='2' fontcolor='#e15759' fontsize='14'>Listing Count</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='33' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='32' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='5625' id='19' type='text' w='35100' x='2500' y='2750'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Tableau Medium' fontsize='15'>Dashboard Data of AirBnB in NYC</run>
+                    <run>Æ </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3750' id='20' type='text' w='19300' x='78200' y='4500'>
+                  <formatted-text>
+                    <run>dashboard by : Fedy Rahmatullah</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3750' id='23' type='text' w='20100' x='52700' y='9000'>
+                  <formatted-text>
+                    <run fontcolor='#e15759' fontsize='14'>Average Price by Area</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3750' id='21' type='text' w='18200' x='3500' y='10250'>
+                  <formatted-text>
+                    <run fontcolor='#e15759' fontsize='14'>Listing per Area</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='239' h='29875' id='3' is-fixed='true' name='Listing per area' show-title='false' w='31400' x='6600' y='13125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='15625' id='4' name='Listing per area' pane-specification-id='0' param='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]' type='color' w='11300' x='39600' y='11625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='233' h='29125' id='13' is-fixed='true' name='Average Price' show-title='false' w='44600' x='51700' y='13375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3750' id='22' type='text' w='25700' x='50600' y='43750'>
+                  <formatted-text>
+                    <run fontcolor='#e15759' fontsize='14'>Average Price by Room Type</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3750' id='24' type='text' w='27000' x='6100' y='45125'>
+                  <formatted-text>
+                    <run fontcolor='#e15759' fontsize='14'>Listing Count Year by Year</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='225' h='28125' id='16' is-fixed='true' name='Average Price by Room Type' show-title='false' w='38500' x='48800' y='46875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9750' id='17' name='Average Price by Room Type' pane-specification-id='0' param='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:room_type:nk]' type='color' w='14000' x='85500' y='46625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='193' h='24125' id='14' is-fixed='true' name='Timeline' show-title='false' w='39500' x='4800' y='48875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='197' h='24625' id='18' is-fixed='true' name='Top 5 Sub Area in NYC by Listing' show-title='false' w='73100' x='19900' y='75000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='14875' id='25' type='text' w='15700' x='3800' y='77875'>
+                  <formatted-text>
+                    <run fontalignment='2' fontcolor='#e15759' fontsize='14'>Top 5 Sub Area </run>
+                    <run fontalignment='2'>Æ&#10;</run>
+                    <run fontalignment='2' fontcolor='#e15759' fontsize='14'>in NYC by</run>
+                    <run fontalignment='2'>Æ&#10;</run>
+                    <run fontalignment='2' fontcolor='#e15759' fontsize='14'>Listing Count</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B2BBF19D-DEB0-4AF5-83AA-E112E48D80A1}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Listing per area'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[cnt:area:qk]</field>
+            <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]</field>
+            <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:listing_id:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3D61A843-346B-4499-B89D-D5074735B1BF}' />
+    </window>
+    <window class='worksheet' name='Average Price'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]</field>
+            <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:sub_area:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{28130417-B879-4016-9B43-51C77D39D4E0}' />
+    </window>
+    <window class='worksheet' name='Timeline'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]</field>
+            <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:listing_id:ok]</field>
+            <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[yr:last_review:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C7B63F75-BF57-4A82-B61E-A9629305698F}' />
+    </window>
+    <window class='worksheet' name='Average Price by Room Type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:room_type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:room_type:nk]</field>
+            <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:sub_area:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{34263732-00A9-478C-9559-C3C4032D180A}' />
+    </window>
+    <window class='worksheet' name='Top 5 Sub Area in NYC by Listing'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:sub_area:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:listing_id:ok]</field>
+            <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:sub_area:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{647A4A71-65F2-4384-B4E2-675C939DC03F}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Exploratory Data of Airbnb NY'>
+      <viewpoints>
+        <viewpoint name='Average Price'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Price by Room Type'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:room_type:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Listing per area'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0cnnhpi0a5kq8y17u6zon0v6ojgc].[none:area:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Timeline'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 5 Sub Area in NYC by Listing'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='13' />
+      <simple-id uuid='{445F5CB2-17EC-4C36-A8AB-63E454718C02}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Exploratory Data of Airbnb NY' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
