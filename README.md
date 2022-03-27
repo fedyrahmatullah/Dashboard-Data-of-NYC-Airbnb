@@ -10,7 +10,7 @@
   <a href="https://github.com/fedyrahmatullah/Dashboard-Data-of-NYC-Airbnb">Dasboard ini</a> adalah dashboard exploratory data yang dibuat berdasarkan dataset (dummy) AirBnb New York City sebagai case study pertama dari mini course RevoU.
 </p>
 
-<a href='https://github.com/fedyrahmatullah/Dashboard-Data-of-NYC-Airbnb'><img src="IMG/Dashboard airbnbNYC_fedy.jpg"></a>
+<a href='https://github.com/fedyrahmatullah/Dashboard-Data-of-NYC-Airbnb'><img src="IMG/dashboard airbnbNYC_fedy.jpg"></a>
 
 <p align="justify">
   Di dashboard ini, terdapat beberapa langkah pembuatannya dari awal hingga akhir yaitu <b>mendapatkan dataset</b> hingga menyusun <b>visualisasi data.</b> Dataset yang diperoleh awalnya perlu dibersihkan terlebih dahulu dan menjalani tahapan <b>data cleaning.</b> Pada tahap ini saya menggunakan python (jupyter notebook) sebagai tools untuk melakukan data cleaning.
