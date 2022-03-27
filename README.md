@@ -10,6 +10,7 @@
   <a href="https://github.com/fedyrahmatullah/Dashboard-Data-of-NYC-Airbnb">Dasboard ini</a> adalah dashboard exploratory data yang dibuat berdasarkan dataset (dummy) AirBnb New York City sebagai case study pertama dari mini course RevoU.
 </p>
 
+<a href='https://github.com/fedyrahmatullah/Dashboard-Data-of-NYC-Airbnb'><img src="IMG/dashboard airbnbNYC_fedy.png"></a>
 ![Dashboard NYC Airbnb](IMG/dashboard airbnbNYC_fedy.png)
 
 <p align="justify">
