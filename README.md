@@ -13,6 +13,11 @@
 <a href='https://public.tableau.com/app/profile/fedy.rahmatullah/viz/DashboardDataofAirBnBinNYC/ExploratoryDataofAirbnbNY'><img src="IMG/Exploratory Data of Airbnb NY.png"></a>
 
 <p align="justify">
+  <b>(Anda dapat membaca penjelasan lebih detail tentang project ini<a href="https://www.linkedin.com/posts/fedyrahmatullah_exploratory-data-on-airbnb-in-nyc-activity-6917433943877193728-zYmM?utm_source=linkedin_share&utm_medium=android_app">Disini)</a></b> 
+</p>
+
+
+<p align="justify">
   Di dashboard ini, terdapat beberapa langkah pembuatannya dari awal hingga akhir yaitu <b>mendapatkan dataset</b> hingga menyusun <b>visualisasi data.</b> Dataset yang diperoleh awalnya perlu dibersihkan terlebih dahulu dan menjalani tahapan <b>data cleaning.</b> Pada tahap ini saya menggunakan python (jupyter notebook) sebagai tools untuk melakukan data cleaning.
 </p>
 
