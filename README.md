@@ -7,11 +7,14 @@
 <br />
 
 <p align="justify">
-  <a href="https://public.tableau.com/app/profile/fedy.rahmatullah/viz/DashboardDataofAirBnBinNYC/ExploratoryDataofAirbnbNY">Dasboard ini</a> adalah dashboard exploratory data yang dibuat berdasarkan dataset (dummy) AirBnb New York City sebagai case study pertama dari mini course RevoU.
+  Dasboard ini adalah dashboard exploratory data yang dibuat berdasarkan dataset (dummy) AirBnb New York City sebagai case study pertama dari mini course RevoU.
 </p>
 
 <a href='https://public.tableau.com/app/profile/fedy.rahmatullah/viz/DashboardDataofAirBnBinNYC/ExploratoryDataofAirbnbNY'><img src="IMG/Exploratory Data of Airbnb NY.png"></a>
 
+<p align="center">
+  Link Dashboard in Tableau Public : [ <a href="https://public.tableau.com/app/profile/fedy.rahmatullah/viz/DashboardDataofAirBnBinNYC/ExploratoryDataofAirbnbNY">LINK</a> }
+</p>
 <p align="center">
   <b>(Anda dapat membaca penjelasan lebih detail tentang project ini <a href="https://medium.com/@fedyr/exploratory-data-analysis-airbnb-new-york-city-menggunakan-python-f7689e3a1f24">Disini</a>)</b> 
 </p>
