@@ -13,7 +13,7 @@
 <a href='https://public.tableau.com/app/profile/fedy.rahmatullah/viz/DashboardDataofAirBnBinNYC/ExploratoryDataofAirbnbNY'><img src="IMG/Exploratory Data of Airbnb NY.png"></a>
 
 <p align="center">
-  <b>(Anda dapat membaca penjelasan lebih detail tentang project ini <a href="https://www.linkedin.com/posts/fedyrahmatullah_exploratory-data-on-airbnb-in-nyc-activity-6917433943877193728-zYmM?utm_source=linkedin_share&utm_medium=android_app">Disini</a>)</b> 
+  <b>(Anda dapat membaca penjelasan lebih detail tentang project ini <a href="https://medium.com/@fedyr/exploratory-data-analysis-airbnb-new-york-city-menggunakan-python-f7689e3a1f24">Disini</a>)</b> 
 </p>
 
 
